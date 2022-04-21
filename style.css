@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.header{
+   height: 617px;
+    background: url(img/Rectangle.png);
+    background: #f5deb3;
+    background-blend-mode: overlay;
+    padding: 16px 0;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header-inner{
+    align-items: center;
+    display: flex;
+}
+.nav{
+    margin-left: auto;
+}
+.nav-list{
+    margin: 0 auto;
+    display: flex;
+    padding-left: 0;
+    list-style-type: none;
+}
+.nav-link{
+    display: inline-block;
+    text-decoration: none;
+    color: #333333;
+    padding: 20px;
+    font-family: Roboto,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+
+.row{
+
+    display: flex;
+}
+.card{
+    margin-top: 100px;
+    margin-left: 50px;
+    height: 150px;
+    width: 447px;
+}
+h1{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+p{
+    height: 72px;
+    width: 464px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.button-your-plan{
+    height: 51px;
+    width: 193px;
+    border-radius: 100px;
+    background:  #0A775F;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    font-family: Roboto,sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 20px;
+}
+.card1{
+   margin-left: 50px;
+}
+.container-img{
+
+    position: absolute;
+    height: 159px;
+    width: 159px;
+    transform: rotate(-25deg);
+
+}
+.container-img1{
+   padding: 50px;
+    height: 596px;
+    width: 610px;
+}
